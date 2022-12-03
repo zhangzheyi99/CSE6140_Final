@@ -139,4 +139,4 @@ def solveLS1(inputFile,outputFile,maxTime,initSeed):
     '''
 
 
-solveLS1('DATA-1/power.graph', 'OUTPUT/power', 10, 666)
+#solveLS1('DATA-1/power.graph', 'OUTPUT/power', 10, 666)
