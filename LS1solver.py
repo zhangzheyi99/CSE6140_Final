@@ -115,8 +115,8 @@ def solveLS1(inputFile,outputFile,maxTime,initSeed):
                 best = (len(v_set), list(v_set))
                 trace_str += f'{time.time()-start_time}, {best[0]}'
                 trace_str += '\n'
-            else:
-                print(len(edges)-E, len(v_set))
+            #else:
+            #    print(len(edges)-E, len(v_set))
 
             T -= T_MAX/k
 
@@ -139,4 +139,4 @@ def solveLS1(inputFile,outputFile,maxTime,initSeed):
     '''
 
 
-solveLS1('DATA-1/power.graph', 'OUTPUT/power', 10, 10)
+solveLS1('DATA-1/power.graph', 'OUTPUT/power', 10, 666)
