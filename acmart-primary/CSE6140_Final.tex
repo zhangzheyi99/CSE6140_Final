@@ -397,7 +397,8 @@ The time complexity of the GIC algorithm as implemented is $O(n^2)$ where n is t
 
 \subsubsection{Description}
 
-\lipsum[1]
+The first local search algorithm we implement is simulated annealing. The main task is to find an appropriate cost evaluation function, and a definition of neighbor. For the first question, we define the cost as $$|V'|+\alpha\; \texttt{number of edges uncovered}$$ 
+In the equation, $\alpha$ is a factor to define how important it is to cover all the edges while exploring new solutions.
 
 \subsubsection{Pseudo Code}
 
